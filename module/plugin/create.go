@@ -77,8 +77,7 @@ func createPlugin(id, body string) (string, error) {
 			if err != nil {
 				return "", fmt.Errorf("error creating directory: %s", err)
 			}
-		}
-		else {
+		} else {
 			return "", fmt.Errorf("error creating directory: %s", err)
 		}
 	}
